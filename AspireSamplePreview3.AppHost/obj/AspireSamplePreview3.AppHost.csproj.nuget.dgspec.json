@@ -1,0 +1,294 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.AppHost/AspireSamplePreview3.AppHost.csproj": {}
+  },
+  "projects": {
+    "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.ApiService/AspireSamplePreview3.ApiService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.ApiService/AspireSamplePreview3.ApiService.csproj",
+        "projectName": "AspireSamplePreview3.ApiService",
+        "projectPath": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.ApiService/AspireSamplePreview3.ApiService.csproj",
+        "packagesPath": "/home/drcox1911/.nuget/packages/",
+        "outputPath": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.ApiService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/drcox1911/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/home/drcox1911/.dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.ServiceDefaults/AspireSamplePreview3.ServiceDefaults.csproj": {
+                "projectPath": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.ServiceDefaults/AspireSamplePreview3.ServiceDefaults.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/drcox1911/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.AppHost/AspireSamplePreview3.AppHost.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.AppHost/AspireSamplePreview3.AppHost.csproj",
+        "projectName": "AspireSamplePreview3.AppHost",
+        "projectPath": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.AppHost/AspireSamplePreview3.AppHost.csproj",
+        "packagesPath": "/home/drcox1911/.nuget/packages/",
+        "outputPath": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.AppHost/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/drcox1911/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/home/drcox1911/.dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.ApiService/AspireSamplePreview3.ApiService.csproj": {
+                "projectPath": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.ApiService/AspireSamplePreview3.ApiService.csproj"
+              },
+              "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.Web/AspireSamplePreview3.Web.csproj": {
+                "projectPath": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.Web/AspireSamplePreview3.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Aspire.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0-preview.3.24105.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/drcox1911/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.ServiceDefaults/AspireSamplePreview3.ServiceDefaults.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.ServiceDefaults/AspireSamplePreview3.ServiceDefaults.csproj",
+        "projectName": "AspireSamplePreview3.ServiceDefaults",
+        "projectPath": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.ServiceDefaults/AspireSamplePreview3.ServiceDefaults.csproj",
+        "packagesPath": "/home/drcox1911/.nuget/packages/",
+        "outputPath": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.ServiceDefaults/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/drcox1911/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/home/drcox1911/.dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http.Resilience": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.ServiceDiscovery": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23619.3, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.7.0-alpha.1, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.7.0-alpha.1, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.6.0-beta.2, )"
+            },
+            "OpenTelemetry.Instrumentation.GrpcNetClient": {
+              "target": "Package",
+              "version": "[1.6.0-beta.2, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.6.0-beta.2, )"
+            },
+            "OpenTelemetry.Instrumentation.Runtime": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/drcox1911/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.Web/AspireSamplePreview3.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.Web/AspireSamplePreview3.Web.csproj",
+        "projectName": "AspireSamplePreview3.Web",
+        "projectPath": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.Web/AspireSamplePreview3.Web.csproj",
+        "packagesPath": "/home/drcox1911/.nuget/packages/",
+        "outputPath": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/drcox1911/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/home/drcox1911/.dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.ServiceDefaults/AspireSamplePreview3.ServiceDefaults.csproj": {
+                "projectPath": "/home/drcox1911/Coding/dotnet/20_Playgrounds/AspireSamplePreview3/AspireSamplePreview3.ServiceDefaults/AspireSamplePreview3.ServiceDefaults.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Aspire.StackExchange.Redis.OutputCaching": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23619.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/drcox1911/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
